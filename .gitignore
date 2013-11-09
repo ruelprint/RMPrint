@@ -1,9 +1,5 @@
-fabfile_local.py
-data/deployment.json
-.DS_store
-*.js~
-*.html~
-*.css~
-._*
-*.xpi
-exported_graphs
+cd addon-sdk
+source bin/activate
+
+git clone git://github.com/mozilla/collusion.git
+cd collusion
